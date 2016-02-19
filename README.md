@@ -10,7 +10,7 @@ if intersected, then recursive search the child.
 
 `Usage`: press Alt + T to translate the query point, the program will instantly return the closest point on mesh. 
 
-`Visualization`: red point is the query point; green point is the closest point. arrow line pointing from query to closest point.
+`Visualization`: green point is the query point; red point is the closest point. arrow line pointing from query to closest point.
 
 `Core files`: src/ClosestPointQuery.h  src/ClosestPointQuery.cpp   src/closestpoint_utils
 
