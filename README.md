@@ -12,9 +12,15 @@ if intersected, then recursive search the child.
 
 `Visualization`: green point is the query point; red point is the closest point. arrow line pointing from query to closest point.
 
-`Core files`: src/ClosestPointQuery.h  src/ClosestPointQuery.cpp   src/closestpoint_utils
+`Core files`: src/ClosestPointQuery.h  src/ClosestPointQuery.cpp   src/closestpoint_utils.h
 
-`Screenshot`
+`demo video`: under folder '/video'
 
+
+`Screenshot`: query time in seconds.
+![Alt text](screenshot/low0.png)
+![Alt text](screenshot/low1.png)
+![Alt text](screenshot/high0.png)
+![Alt text](screenshot/high1.png)
 
 
