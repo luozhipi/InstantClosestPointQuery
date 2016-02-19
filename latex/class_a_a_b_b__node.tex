@@ -1,0 +1,114 @@
+\hypertarget{class_a_a_b_b__node}{}\section{A\+A\+B\+B\+\_\+node Class Reference}
+\label{class_a_a_b_b__node}\index{A\+A\+B\+B\+\_\+node@{A\+A\+B\+B\+\_\+node}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_a_a_b_b__node_ac531194a5eac2f7229562980b5b20980}{A\+A\+B\+B\+\_\+node} ()\hypertarget{class_a_a_b_b__node_ac531194a5eac2f7229562980b5b20980}{}\label{class_a_a_b_b__node_ac531194a5eac2f7229562980b5b20980}
+
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+\hyperlink{class_a_a_b_b__node_a2b053e3bd1ab4bd474dc59e7fdbfaa98}{$\sim$\+A\+A\+B\+B\+\_\+node} ()
+\item 
+const \hyperlink{struct_my__bbox}{My\+\_\+bbox} \& \hyperlink{class_a_a_b_b__node_a197ca0deb35408c6f8a9106a6a677a4d}{bbox} () const \hypertarget{class_a_a_b_b__node_a197ca0deb35408c6f8a9106a6a677a4d}{}\label{class_a_a_b_b__node_a197ca0deb35408c6f8a9106a6a677a4d}
+
+\begin{DoxyCompactList}\small\item\em Returns the bounding box of the node. \end{DoxyCompactList}\item 
+const \hyperlink{class_a_a_b_b__node}{A\+A\+B\+B\+\_\+node} \& {\bfseries left\+\_\+child} () const \hypertarget{class_a_a_b_b__node_a14b481fab95cbb2aee234e556f956df1}{}\label{class_a_a_b_b__node_a14b481fab95cbb2aee234e556f956df1}
+
+\item 
+const \hyperlink{class_a_a_b_b__node}{A\+A\+B\+B\+\_\+node} \& {\bfseries right\+\_\+child} () const \hypertarget{class_a_a_b_b__node_a68093fd4c41173505afff6431405862d}{}\label{class_a_a_b_b__node_a68093fd4c41173505afff6431405862d}
+
+\item 
+const \hyperlink{struct_my__triangle}{My\+\_\+triangle} \& \hyperlink{class_a_a_b_b__node_af16ee8283a69a567baa4b260cdea8cd1}{left\+\_\+data} () const \hypertarget{class_a_a_b_b__node_af16ee8283a69a567baa4b260cdea8cd1}{}\label{class_a_a_b_b__node_af16ee8283a69a567baa4b260cdea8cd1}
+
+\begin{DoxyCompactList}\small\item\em leaf node pointing to input triangle, so can get the triangle vertices. \end{DoxyCompactList}\item 
+const \hyperlink{struct_my__triangle}{My\+\_\+triangle} \& {\bfseries right\+\_\+data} () const \hypertarget{class_a_a_b_b__node_ab4002a5a9e8878cb5cfff48c23fd91a8}{}\label{class_a_a_b_b__node_ab4002a5a9e8878cb5cfff48c23fd91a8}
+
+\item 
+\hyperlink{class_a_a_b_b__node}{A\+A\+B\+B\+\_\+node} \& {\bfseries left\+\_\+child} ()\hypertarget{class_a_a_b_b__node_aaf4a4b9ebfd1faea90dd6430d5c5069f}{}\label{class_a_a_b_b__node_aaf4a4b9ebfd1faea90dd6430d5c5069f}
+
+\item 
+\hyperlink{class_a_a_b_b__node}{A\+A\+B\+B\+\_\+node} \& {\bfseries right\+\_\+child} ()\hypertarget{class_a_a_b_b__node_a55be4a4b0a9e508df2c54df3b4ac68f7}{}\label{class_a_a_b_b__node_a55be4a4b0a9e508df2c54df3b4ac68f7}
+
+\item 
+\hyperlink{struct_my__triangle}{My\+\_\+triangle} \& {\bfseries left\+\_\+data} ()\hypertarget{class_a_a_b_b__node_ab311d82312a960ee429a56e4e42efa0d}{}\label{class_a_a_b_b__node_ab311d82312a960ee429a56e4e42efa0d}
+
+\item 
+\hyperlink{struct_my__triangle}{My\+\_\+triangle} \& {\bfseries right\+\_\+data} ()\hypertarget{class_a_a_b_b__node_a9fa766333099834078112f05a43247f6}{}\label{class_a_a_b_b__node_a9fa766333099834078112f05a43247f6}
+
+\item 
+void \hyperlink{class_a_a_b_b__node_a795f0ae58059d7ebd69978e81f1bcc6c}{expand} (vector$<$ \hyperlink{struct_my__triangle}{My\+\_\+triangle} $>$\+::iterator first, vector$<$ \hyperlink{struct_my__triangle}{My\+\_\+triangle} $>$\+::iterator beyond, size\+\_\+t range)
+\begin{DoxyCompactList}\small\item\em Builds the tree by recursive expansion. \end{DoxyCompactList}\item 
+Row\+Vector3 \hyperlink{class_a_a_b_b__node_a3522587d1fbf4b92af93d5d4b8838fb9}{traversal} (const Row\+Vector3 \&query\+\_\+point, const Scalar\+Type \&max\+Dist, const std\+::size\+\_\+t nb\+\_\+triangles) const 
+\begin{DoxyCompactList}\small\item\em General traversal query point. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{A\+A\+B\+B\+\_\+node@{A\+A\+B\+B\+\_\+node}!````~A\+A\+B\+B\+\_\+node@{$\sim$\+A\+A\+B\+B\+\_\+node}}
+\index{````~A\+A\+B\+B\+\_\+node@{$\sim$\+A\+A\+B\+B\+\_\+node}!A\+A\+B\+B\+\_\+node@{A\+A\+B\+B\+\_\+node}}
+\subsubsection[{\texorpdfstring{$\sim$\+A\+A\+B\+B\+\_\+node()}{~AABB_node()}}]{\setlength{\rightskip}{0pt plus 5cm}A\+A\+B\+B\+\_\+node\+::$\sim$\+A\+A\+B\+B\+\_\+node (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_a_a_b_b__node_a2b053e3bd1ab4bd474dc59e7fdbfaa98}{}\label{class_a_a_b_b__node_a2b053e3bd1ab4bd474dc59e7fdbfaa98}
+Destructor Do not delete children because the tree hosts and delete them 
+
+\subsection{Member Function Documentation}
+\index{A\+A\+B\+B\+\_\+node@{A\+A\+B\+B\+\_\+node}!expand@{expand}}
+\index{expand@{expand}!A\+A\+B\+B\+\_\+node@{A\+A\+B\+B\+\_\+node}}
+\subsubsection[{\texorpdfstring{expand(vector$<$ My\+\_\+triangle $>$\+::iterator first, vector$<$ My\+\_\+triangle $>$\+::iterator beyond, size\+\_\+t range)}{expand(vector< My_triangle >::iterator first, vector< My_triangle >::iterator beyond, size_t range)}}]{\setlength{\rightskip}{0pt plus 5cm}void A\+A\+B\+B\+\_\+node\+::expand (
+\begin{DoxyParamCaption}
+\item[{vector$<$ {\bf My\+\_\+triangle} $>$\+::iterator}]{first, }
+\item[{vector$<$ {\bf My\+\_\+triangle} $>$\+::iterator}]{beyond, }
+\item[{size\+\_\+t}]{range}
+\end{DoxyParamCaption}
+)}\hypertarget{class_a_a_b_b__node_a795f0ae58059d7ebd69978e81f1bcc6c}{}\label{class_a_a_b_b__node_a795f0ae58059d7ebd69978e81f1bcc6c}
+
+
+Builds the tree by recursive expansion. 
+
+build the A\+A\+BB tree
+
+
+\begin{DoxyParams}{Parameters}
+{\em first} & the first triangle to insert \\
+\hline
+{\em last} & the last triangle to insert \\
+\hline
+{\em range} & the number of triangle of the range\\
+\hline
+\end{DoxyParams}
+\mbox{[}first,last\mbox{[} is the range of primitives to be added to the tree. compute the bounding box
+
+sort triangles along longest A\+A\+BB axis.
+
+pointing to input triangle.
+
+pointing to \hyperlink{class_a_a_b_b__node}{A\+A\+B\+B\+\_\+node}. \index{A\+A\+B\+B\+\_\+node@{A\+A\+B\+B\+\_\+node}!traversal@{traversal}}
+\index{traversal@{traversal}!A\+A\+B\+B\+\_\+node@{A\+A\+B\+B\+\_\+node}}
+\subsubsection[{\texorpdfstring{traversal(const Row\+Vector3 \&query\+\_\+point, const Scalar\+Type \&max\+Dist, const std\+::size\+\_\+t nb\+\_\+triangles) const }{traversal(const RowVector3 &query_point, const ScalarType &maxDist, const std::size_t nb_triangles) const }}]{\setlength{\rightskip}{0pt plus 5cm}Row\+Vector3 A\+A\+B\+B\+\_\+node\+::traversal (
+\begin{DoxyParamCaption}
+\item[{const Row\+Vector3 \&}]{query\+\_\+point, }
+\item[{const Scalar\+Type \&}]{max\+Dist, }
+\item[{const std\+::size\+\_\+t}]{nb\+\_\+triangles}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_a_a_b_b__node_a3522587d1fbf4b92af93d5d4b8838fb9}{}\label{class_a_a_b_b__node_a3522587d1fbf4b92af93d5d4b8838fb9}
+
+
+General traversal query point. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em query\+\_\+point} & the query point \\
+\hline
+{\em radius} & the radius of the sphere defined by maximum search distance \\
+\hline
+{\em nb\+\_\+triangles} & the number of triangles \\
+\hline
+\end{DoxyParams}
+closer point to mesh of query? use squared distance, avoding sqrt().
+
+first check whether the bounding box of child node intersect with the sphere which center is query point and radius is max\+Dist. if so, recursive traversal of this child node. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/Closest\+Point\+Query.\+h\item 
+src/Closest\+Point\+Query.\+cpp\end{DoxyCompactItemize}
